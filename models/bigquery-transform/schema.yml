@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: raw_data_addresses
+    description: "Addresses table"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
